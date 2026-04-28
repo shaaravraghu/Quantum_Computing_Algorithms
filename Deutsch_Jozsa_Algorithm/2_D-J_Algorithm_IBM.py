@@ -7,8 +7,8 @@ from qiskit_ibm_runtime import QiskitRuntimeService, SamplerV2 as Sampler
 from qiskit.transpiler.preset_passmanagers import generate_preset_pass_manager
 
 # ── IBM Credentials ───────────────────────────────────────────────────────────
-IBM_API_TOKEN = "qlFu1fi7gSOP6e8kiSEUpHhhHhxA5ws1Z4_1HniBxMrY"
-IBM_INSTANCE = "crn:v1:bluemix:public:quantum-computing:us-east:a/2d091361e27946c7aca67f1f1f888383:ec5c14bb-e0f4-40f4-82de-5b2ebf6d4341::"
+IBM_API_TOKEN = " "
+IBM_INSTANCE = " "
 
 service = QiskitRuntimeService(
     channel="ibm_quantum_platform", token=IBM_API_TOKEN, instance=IBM_INSTANCE
